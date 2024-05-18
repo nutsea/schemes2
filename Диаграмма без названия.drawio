@@ -1,9 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T21:37:33.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" version="24.4.4" etag="fA6Y-Ukbk_6V0C8m3-3J" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-18T23:53:48.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="aTk8zc9FWn3ktUG7AMpb" version="24.4.4" type="github">
   <diagram name="Страница — 1" id="kcIHpaBXgekZlSxsXSXJ">
-    <mxGraphModel>
+    <mxGraphModel dx="733" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-1" value="Клиент" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-4" value="Сервер" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="140" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q9TgcYcHIw7ZAvSh_TuZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="200" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-7" value="Войти" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=45;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-11" value="Бот" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Q9TgcYcHIw7ZAvSh_TuZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="390" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Q9TgcYcHIw7ZAvSh_TuZ-11" target="Q9TgcYcHIw7ZAvSh_TuZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="310" as="sourcePoint" />
+            <mxPoint x="220" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-15" value="Данные" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;rotation=-40;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="230" width="45" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-16" value="Ожидание данных с бота" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="160" as="sourcePoint" />
+            <mxPoint x="110" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="390" y="150" />
+              <mxPoint x="340" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-18" value="Токен авторизации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="120" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q9TgcYcHIw7ZAvSh_TuZ-20" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Как это реализовать?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;1. Клиент отправляет запрос на сервер. На сервере начинается ожидание данных с бота.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;2. Клиента перекидывает в бота по ссылке.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; background-color: initial;&quot;&gt;3. Нужно связать ожидание на сервере с сообщениями в боте. Это можно сделать так: бот запущен на сервере. Получение данных должно быть именно в методе, который вызывается для авторизации. Значит и сообщения бот должен получать в этом методе. Но в бота может прийти одновременно сообщение от другого пользователя. Поэтому нужно как-то проверять, тот ли это пользователь. Значит нужен какой-то код, который будет генерироваться в запросе, но как бот получит и передаст нам обратно этот код? Нужно, чтобы ссылка для авторизации на клиенте была уникальной и принадлежала конкретному пользователю. Не подойдет просто ссылка на бота.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="270" height="260" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
